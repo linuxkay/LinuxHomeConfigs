@@ -1,0 +1,16 @@
+alias install="sudo apt -y install "
+alias search="sudo apt search "
+alias goupdate="sudo apt-get update && sudo apt-get -y upgrade && sudo apt-get -y dist-upgrade && sudo apt-get -y autoremove && sudo apt-get -y autoclean && sudo init 6"
+alias update6="sudo apt-get update && sudo apt-get -y upgrade && sudo apt-get -y dist-upgrade && sudo apt-get -y autoremove && sudo apt-get -y autoclean && sudo init 6"
+alias 0update="sudo apt-get update && sudo apt-get -y upgrade && sudo apt-get -y dist-upgrade && sudo apt-get -y autoremove && sudo apt-get -y autoclean && sudo init 0"
+alias update0="sudo apt-get update && sudo apt-get -y upgrade && sudo apt-get -y dist-upgrade && sudo apt-get -y autoremove && sudo apt-get -y autoclean && sudo init 0"
+alias cam="python /home/user/Workspace/input.py"
+alias soundone="cvlc /usr/share/sounds/freedesktop/stereo/complete.oga"
+alias cc="clear"
+alias gip2="python /home/user/Workspace/checkip.py"
+alias gip='wget -q -O- ipv4.icanhazip.com'
+alias myip='wget -q -O- ipv4.icanhazip.com'
+alias arp-scan="watch 'sudo arp-scan -l --interface wlp3s0'"
+alias imgcat="tiv "
+alias 10="du -hsx * | sort -rh | head"
+alias count='watch "ls -1 | wc -l"'
