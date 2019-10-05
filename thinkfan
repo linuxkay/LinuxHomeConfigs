@@ -1,0 +1,3 @@
+# Place this file at /etc/default/
+# Additional startup parameters
+DAEMON_ARGS="-q"

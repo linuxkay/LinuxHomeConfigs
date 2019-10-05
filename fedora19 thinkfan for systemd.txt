@@ -1,0 +1,60 @@
+﻿10/23/2013
+Author Linuxkay
+
+install thinkfan and lm_sensors
+sudo yum -y install thinkfa lm_sensors
+
+
+create new file called /etc/modprobe.d/thinkpad_acpi.conf
+sudo vim /etc/modprobe.d/thinkpad_acpi.conf
+add this line
+options thinkpad_acpi fan_control=1
+
+
+and reboot
+
+
+check fan level by
+cat /proc/acpi/ibm/fan
+
+
+change level by
+echo level 0 > /proc/acpi/ibm/fan
+
+
+Find file name temp1_input
+find /sys/devices -type f -name "temp*_input"
+
+
+edit /etc/thinkfan.conf
+sudo vim /etc/thinkfan.conf
+add
+example :
+sensor /sys/devices/virtual/hwmon/hwmon0/temp1_input
+
+
+(0,         0,          60) 
+(1,         55,         65) 
+(3,         61,         69) 
+(5,         66,         74) 
+(7,         70,         32767)
+
+
+
+sudo thinkfan -n
+
+
+check thinkfan is running by
+ps -el | grep thinkfan
+for systemd startup apps
+sudo systemctl enable thinkfan
+and reboot
+make sure thinkfan is running by
+ ps -el  grep thinkfan
+done
+
+
+reference
+may not be usable for newer version of fedora like systemd
+http://calcurio.com/wordpress/?p=464
+http://www.tedman.com/techie-notes/makingthethinkpadt410quietwithfedora14
