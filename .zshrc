@@ -146,6 +146,8 @@ precmd () { vcs_info }
 RPROMPT=$RPROMPT'${vcs_info_msg_0_}'
 # fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+# ctl+r search to display downbelow insted of above
+export FZF_DEFAULT_OPTS='--height 40% --reverse --border'
 
 $tmuximum
 
