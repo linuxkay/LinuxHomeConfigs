@@ -2,4 +2,9 @@ sudo apt -y install ffmpeg audacity nmap powertop aircrack-ng openssl wifite pyr
 sudo systemctl enable thinkfan
 sudo systemctl enable tlp 
 sudo systemctl enable openvpn-client@client 
+pip3 install imutils
+pip3 install utils
+pip3 install opencv-python
+pip3 install redis
+pip3 install sk-video
 
