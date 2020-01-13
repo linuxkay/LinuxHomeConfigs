@@ -7,6 +7,7 @@ pip3 install utils
 pip3 install opencv-python
 pip3 install redis
 pip3 install sk-video
+# See here https://wiki.archlinux.jp/index.php/Tp_smapi for adding tp_smapi systemctl.
 #modprobe for tp_smapi
 sudo modprobe tp_smapi
 #set start_charge_thresh This line does now work in X220. see supported ThinkPads in ArchWiki
@@ -14,3 +15,4 @@ echo 20 > /sys/devices/platform/smapi/BAT0/start_charge_thresh
 #set stop_charge_thresh This works in X220.
 #This line will stop charging when battery % is more than 75%
 echo 75 > /sys/devices/platform/smapi/BAT0/stop_charge_thresh
+
