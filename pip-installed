@@ -1,0 +1,16 @@
+
+pip3 install utils
+sudo snap install protobuf
+pip3 install google_images_download
+conda install redis
+conda install imutils
+conda install -c pjamesjoyce imutils\
+pip3 install imutils
+conda install sk-video
+conda install -c conda-forge sk-video 
+conda install imutils
+conda install -c pjamesjoyce imutils\
+pip install imutils
+pip3 install imutils
+conda install sk-video
+conda install -c conda-forge sk-video 
