@@ -22,6 +22,8 @@ etc
 
 ## Requirements
 
+Linux system
+
 ## Install
 
 ## Usage
