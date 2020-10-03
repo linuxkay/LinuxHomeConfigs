@@ -28,6 +28,8 @@ Linux system
 
 ## Install
 
+git clone and run bash
+
 ## Usage
 
 ## Contribution
