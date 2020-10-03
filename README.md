@@ -14,6 +14,8 @@ zshrc
 
 vimrc
 
+thinkfan
+
 etc
 
 ## Demo in Animation
