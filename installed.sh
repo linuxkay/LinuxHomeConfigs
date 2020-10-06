@@ -9,7 +9,7 @@ pip3 install opencv-python
 pip3 install redis
 pip3 install sk-video
 # See here https://wiki.archlinux.jp/index.php/Tp_smapi for adding tp_smapi systemctl.
-#modprobe for tp_smapi
+#modprobe for tp_smapi. This modprobe is for thinkfan
 sudo modprobe tp_smapi
 #set start_charge_thresh This line does now work in X220. see supported ThinkPads in ArchWiki
 echo 20 > /sys/devices/platform/smapi/BAT0/start_charge_thresh
