@@ -16,4 +16,4 @@ alias 10="du -hsx * | sort -rh | head"
 alias count='watch "ls -1 | wc -l"'
 alias oldest="find .  -type f -printf '%T+ %p\n' | sort | head -n 5"
 alias newest="find .  -type f -printf '%T+ %p\n' | sort | tail -n 5"
-
+alias findup="python /home/user/120GB/home/user/Workspace/findDuplicatefile.py ."
