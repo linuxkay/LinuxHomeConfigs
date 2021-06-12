@@ -38,11 +38,17 @@ https://askubuntu.com/questions/808699/how-to-disable-sudo-authentication-via-fi
 
 Enroll all fingers by 
 
-for finger in {left,right}-{thumb,{index,middle,ring,little}-finger}; do fprintd-enroll -f "$finger" "$USER"; done
+`for finger in {left,right}-{thumb,{index,middle,ring,little}-finger}; do fprintd-enroll -f "$finger" "$USER"; done`
 
 Delete all fingerprint for $USER
 
-fprintd-delete "$USER"
+`fprintd-delete "$USER"`
+
+Make sure to fingerprint auth is checked by following commands.
+
+`sudo pam-auth-update`
+
+
 
 ## Contribution
 
