@@ -32,6 +32,18 @@ git clone and run bash
 
 ## Usage
 
+Check disable fingerprint on sudo 
+
+https://askubuntu.com/questions/808699/how-to-disable-sudo-authentication-via-fingerprint-in-fprint
+
+Enroll all fingers by 
+
+for finger in {left,right}-{thumb,{index,middle,ring,little}-finger}; do fprintd-enroll -f "$finger" "$USER"; done
+
+Delete all fingerprint for $USER
+
+fprintd-delete "$USER"
+
 ## Contribution
 
 ## Updates
