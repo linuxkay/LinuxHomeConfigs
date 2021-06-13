@@ -32,7 +32,7 @@ git clone and run bash
 
 ## Usage
 
-Check disable fingerprint on sudo 
+Check disable fingerprint on sudo on terminal.
 
 https://askubuntu.com/questions/808699/how-to-disable-sudo-authentication-via-fingerprint-in-fprint
 
@@ -44,7 +44,7 @@ Delete all fingerprint for $USER
 
 `fprintd-delete "$USER"`
 
-Make sure to fingerprint auth is checked by following commands.
+Make sure fingerprint auth is checked by following commands.
 
 `sudo pam-auth-update`
 
