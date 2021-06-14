@@ -1,12 +1,14 @@
 # LinuxHomeConfigs 
 
+## Overview
+
 ## Category
 
 Linux desktop management
 
 ## Description
 
-some config files for linux desktop
+Some config files for linux desktop
 
 bashrc
 
