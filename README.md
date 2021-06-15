@@ -2,6 +2,8 @@
 
 ## Overview
 
+System config for Linux desktop environment. 
+
 ## Category
 
 Linux desktop management
