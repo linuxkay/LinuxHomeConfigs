@@ -30,6 +30,8 @@ etc
 
 Linux system
 
+Tested Ubuntu, Fedora, and Arch Linux
+
 ## Install
 
 git clone and run bash
@@ -57,6 +59,7 @@ Make sure fingerprint auth is checked by following commands.
 Fix unable to type password when login.
 
 Create a script for automatic deletion.
+
 
 ## Contribution
 
