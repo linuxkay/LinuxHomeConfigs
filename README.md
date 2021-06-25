@@ -54,7 +54,7 @@ Make sure fingerprint auth is checked by following commands.
 
 # ToDo
 
-Fix issue on unlock screen by typing password.
+Fix unable to type password when login.
 
 Create a script for automatic deletion.
 
